@@ -66,13 +66,13 @@ class ChartjsController extends AbstractController
         
 
         
-        // return $this->render('chartjs/index.html.twig', [
-        //     'chartBar' => $chartBar,
-        // ]);
-        return $this->json([
-            'message' => 'hello'
-        ])
-        ;
+        return $this->render('chartjs/index.html.twig', [
+            'chartBar' => $chartBar,
+        ]);
+        // return $this->json([
+        //     'message' => 'hello'
+        // ])
+        // ;
     }
 
     
